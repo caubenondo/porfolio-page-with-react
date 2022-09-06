@@ -7,7 +7,7 @@ function Portfolio() {
             <div className="row">
                 {pfolioData.map((pf) => {
                     return (
-                        <div className="col-md-6 col-lg-4" key={pf.title}>
+                        <div className="col-md-6 col-lg-4 mb-3" key={pf.title}>
                             <div className="card h100">
                                 <img
                                     src={pf.imageURL}
