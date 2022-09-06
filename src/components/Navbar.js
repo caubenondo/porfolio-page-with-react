@@ -3,7 +3,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 function Navbar({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+          
 
          
             <div className="container-xl">
@@ -79,7 +79,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     </ul>
                 </div>
             </div>
-            </BrowserRouter>
+           
         </nav>
     );
 }
