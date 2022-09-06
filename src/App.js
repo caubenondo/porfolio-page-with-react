@@ -14,7 +14,7 @@ function App() {
     const [currentPage,setCurrentPage] = useState('Home')
     const handlePageChange = (page) => setCurrentPage(page)
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange}></Navbar>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
