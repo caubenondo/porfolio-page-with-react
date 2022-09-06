@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
+
+         
             <div className="container-xl">
                 <Link className="navbar-brand" to="/" onClick={() => handlePageChange("Home")}>
                     <p className="m-0 h1">HAI DUONG</p>
@@ -76,6 +79,7 @@ function Navbar({ currentPage, handlePageChange }) {
                     </ul>
                 </div>
             </div>
+            </BrowserRouter>
         </nav>
     );
 }
