@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a portfolio landing page for Hai Duong. It use the power of Create-React-App with react-bootstrap.
 
 ## Available Scripts
 
