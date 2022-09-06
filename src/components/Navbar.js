@@ -9,7 +9,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 </Link>
 
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarHaiDuong"
@@ -17,11 +17,11 @@ function Navbar({ currentPage, handlePageChange }) {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarHaiDuong">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarHaiDuong">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
                             <Link
                                 className={
                                     currentPage === "Home"
@@ -34,7 +34,7 @@ function Navbar({ currentPage, handlePageChange }) {
                                 About Me
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link
                                 className={
                                     currentPage === "Portfolio"
@@ -47,7 +47,7 @@ function Navbar({ currentPage, handlePageChange }) {
                                 Portfolio
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link
                                 className={
                                     currentPage === "Contact"
@@ -60,7 +60,7 @@ function Navbar({ currentPage, handlePageChange }) {
                                 Contact
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link
                                 className={
                                     currentPage === "Resume"
