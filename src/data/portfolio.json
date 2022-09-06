@@ -6,30 +6,30 @@
         "description":"RllrDex is an application where users can interact and talk about all things Pokemon! Users can customize their own PokeTeam"
     },
     {
-        "imageURL":"../imgs/2.jpeg",
+        "imageURL":"./imgs/2.jpeg",
         "title":"Burauza no Akachan",
         "github":"https://github.com/caubenondo/gp-mini-pet",
         "description":"Burauza no Akachan is a virtual pet you take care of directly in your browser. Name your pet, feed them and clean up after them, your akachan is just like owning a real pet."
     },
     {
-        "imageURL":"../imgs/3.png",
+        "imageURL":"./imgs/3.png",
         "title":"Weather Forecast",
         "github":"https://github.com/caubenondo/weather-forecast",
         "description":"The App allows user to retrieve weather conditon of cities by searching city name (and state). It is powered by Use the OpenWeather One Call API to retrieve weather conditions."
     },
     {
-        "imageURL":"../imgs/4.png",
+        "imageURL":"./imgs/4.png",
         "title":"Team Genrator with Nodejs",
         "github":"https://github.com/caubenondo/team-generator",
         "description":"This is a Node.js command-line application that takes in info about employees of a software team, then generates an HTML webpage that displays summaries for each person. The project implied OOP in Javascript and Unit Testing with Jest in a Test-Driven-Development fashion."
     }, {
-        "imageURL":"../imgs/5.png",
+        "imageURL":"./imgs/5.png",
         "title":"TechBook with MVC",
         "github":"https://github.com/caubenondo/Techblog-MVC",
         "description":" The app implements Sequelize as the ORM for querying the database to handle Models ; it uses template engine Handlebars.js to handle Views. The Controller handles input form the user, interacts with models to create, read, update, or delete data... via API routes of Expressjs."
     },
     {
-        "imageURL":"../imgs/6.png",
+        "imageURL":"./imgs/6.png",
         "title":"Quizlet with localstorage",
         "github":"https://github.com/caubenondo/local-quiz-generator",
         "description":"The app allows user to create their own set of Quizes, and then test themself with timed quiz."
